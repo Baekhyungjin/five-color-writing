@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg" cx="18%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="#DCEBFF"/>
+      <stop offset="55%" stop-color="#F6F7FB"/>
+      <stop offset="100%" stop-color="#EEF3FA"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#17233C" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="82" y="104" font-family="Noto Sans KR, SamsungOne, Arial, sans-serif" font-size="36" font-weight="800" fill="#111217">글쓰기 <tspan fill="#2189FF">5Color</tspan></text>
+  <text x="82" y="198" font-family="Noto Sans KR, SamsungOne, Arial, sans-serif" font-size="34" font-weight="800" fill="#2189FF">5인의 독립 판단자 · 하나의 글</text>
+  <text x="82" y="292" font-family="Noto Sans KR, SamsungOne, Arial, sans-serif" font-size="76" font-weight="800" fill="#111217">한 편의 글을</text>
+  <text x="82" y="382" font-family="Noto Sans KR, SamsungOne, Arial, sans-serif" font-size="76" font-weight="800" fill="#2189FF">다섯 전문가가 동시에 읽는다</text>
+  <text x="86" y="458" font-family="Noto Sans KR, SamsungOne, Arial, sans-serif" font-size="28" font-weight="500" fill="#4F5663">총괄 판단 · 독자 반응 · 문장 교정 · 구조 설계 · 개성/여운</text>
+  <g filter="url(#shadow)">
+    <rect x="78" y="510" width="150" height="58" rx="29" fill="#FFFFFF"/>
+    <text x="118" y="548" font-family="Noto Sans KR, SamsungOne, Arial, sans-serif" font-size="20" font-weight="800" fill="#2189FF">Prompt</text>
+  </g>
+  <g transform="translate(780 134)" filter="url(#shadow)">
+    <rect width="300" height="362" rx="44" fill="#FFFFFF"/>
+    <rect x="42" y="48" width="74" height="74" rx="24" fill="#111217"/>
+    <rect x="140" y="48" width="74" height="74" rx="24" fill="#D27860"/>
+    <rect x="42" y="146" width="74" height="74" rx="24" fill="#7B7164"/>
+    <rect x="140" y="146" width="74" height="74" rx="24" fill="#4A6388"/>
+    <rect x="91" y="244" width="74" height="74" rx="24" fill="#D4A548"/>
+    <path d="M210 284h42" stroke="#2189FF" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>
